@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "pages/_app.js", "components/StaticMath/children/StaticMathChild.js", "components/StaticMath/children/StaticMathClientSide.js", "components/StaticMath/StaticMath.js"],
   "exclude": ["node_modules"]
 }

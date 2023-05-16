@@ -1,0 +1,200 @@
+/* Global: */
+*{
+    margin:0px;
+    padding:0px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  p{
+    font-family: Poppins, Helvetica Neue, sans-serif;
+  }
+  
+  /*Tag*/
+  html, body {
+    height:100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6{ font-family: ABeeZee, sans-serif; }
+  h1{ font-size: 2.2rem; }
+  h2{ font-size: 2rem; }
+  h3{ font-size: 1.8rem; }
+  h4{ font-size: 1.6rem; }
+  h5{ font-size: 1.4rem; }
+  h6{ font-size: 1.2rem; }
+  
+  a{
+    text-decoration: none;
+    font-family: Poppins, Helvetica Neue, sans-serif;
+  }
+  
+  
+  
+  button{
+    font-family: Poppins, Helvetica Neue, sans-serif;
+    color:black;
+    background-color: #FFC300;
+    border:0px;
+    border-radius: 5px;
+    padding: 9px 20px 9px 20px;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.3);
+    cursor:pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover{
+    background-color: #CC9900;
+  }
+  
+  input[type="text"], input[type="password"]{
+    border-radius: 5px;
+    padding:5px 15px 5px 15px;
+    width:100%;
+    height:57px;
+    border:none;
+    background-color:#E6E6E6;
+  }
+  
+  .mq-editable-field{
+    padding:5px 15px 5px 15px;
+    width:100%;
+    min-height:57px;
+    border: none!important;
+    background-color:#E6E6E6;
+    display:flex!important;
+    align-items: center!important;
+    -webkit-box-shadow: none !important; 
+    box-shadow: none !important;
+  }
+  
+  .mathInput{
+    width:100%;
+  }
+  
+  .mathInput .mq-roman{
+    font-weight: bold !important;
+    font-size: 1.2rem !important;
+  }
+  
+  .answerMath .mq-math-mode {
+    font-size: 1.3rem !important;
+    color:green;
+  }
+  
+  .diagramMath .mq-math-mode {
+    font-size: 1.3rem !important;
+    color:black;
+  }
+  
+  .diagramMath .mq-roman{
+    font-weight: bold !important;
+    font-size: 1.3rem !important;
+  }
+  
+  .questionMath .mq-roman{
+    font-weight: bold !important;
+    font-size: 1.3rem !important;
+  }
+  
+  .answerMath .mq-roman{
+    font-weight: bold !important;
+    font-size: 1.3rem !important;
+  }
+  
+  .questionMath .mq-math-mode {
+    font-size: 1.3rem !important;
+  }
+  
+  textarea{
+    border-radius: 5px;
+    padding:10px;
+    width:100%;
+    border:none;
+    background-color:#E6E6E6;
+    resize:vertical;
+    outline: none;
+    margin:0px;
+    display:block;
+  }
+  
+  /* Classes: */
+  .questionWrapper line{
+    stroke: black;
+    fill: black;
+    stroke-width: 3;
+    stroke-linecap: round;
+  }
+  
+  .questionWrapper text{
+    font-size: 1.1em;
+  }
+  
+  .questionWrapper path{
+    stroke: black;
+    fill: black;
+    stroke-width: 3;
+    stroke-linecap: round;
+    fill-opacity: 0;
+  }
+  
+  .contentWrapper{
+    max-width:1090px;
+    width:100%;
+    height:100%;
+  }
+  
+  .pageHeader{
+    width:100%;
+    height:300px;
+    background-color: #1A9695;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .solutionContainer{
+    color:green;
+    padding-top:50px;
+  }
+  
+  .solutionContainer text{
+    stroke:none;
+    font-size:1.1em;
+  }
+  
+  .latexToSvg * {
+    fill-opacity: 1 !important;
+  }
+  
+  /* Fonts: */
+  @font-face { font-family: "Poppins"; src: local("Poppins"), url("../fonts/Poppins-Regular.ttf"); font-weight: 500; }
+  @font-face { font-family: "Poppins"; src: local("Poppins-Thin"), url("../fonts/Poppins-Thin.ttf"); font-weight:100; }
+  @font-face { font-family: "Poppins"; src: local("Poppins-Light"), url("../fonts/Poppins-Light.ttf"); font-weight:300; }
+  @font-face { font-family: "ABeeZee"; src: local("ABeeZee"), url("../fonts/ABeeZee-Regular.otf"); font-weight: normal; }
+  
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 0px) { 
+    *{ font-size: 0.9rem; }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    *{ font-size: 0.93rem; }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    *{ font-size: 0.96rem; }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    *{ font-size: 1rem; }
+  }
+  
+  /*other*/
+  select::-ms-expand {
+    display: none;
+  }
